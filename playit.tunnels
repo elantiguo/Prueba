@@ -1,41 +1,145 @@
 {
   "tcp_alloc": {
-    "allowed": 6,
-    "claimed": 1,
-    "desired": 1
+    "allowed": 16,
+    "claimed": 2,
+    "desired": 2
   },
   "tunnels": [
     {
       "active": true,
       "alloc": {
         "data": {
-          "assigned_domain": "glass-steal.gl.joinmc.link",
-          "assigned_srv": "glass-steal.gl.joinmc.link",
+          "assigned_domain": "bush-wichita.sa.joinmc.link",
+          "assigned_srv": "bush-wichita.sa.joinmc.link",
           "assignment": {
-            "type": "shared-ip"
+            "subscription": {
+              "region": "south-america",
+              "sub_id": "9732eaa3-ac40-4c35-ba7a-864e8a16e45e"
+            },
+            "type": "dedicated-ip"
           },
-          "id": "b85f9f7b-9a9e-4dfa-b823-1d3f6e400039",
-          "ip_hostname": "22.ip.gl.ply.gg",
+          "id": "6fe4eefd-c60a-4372-833c-897547437a31",
+          "ip_hostname": "126.ip.sa.ply.gg",
           "ip_type": "both",
-          "port_end": 36188,
-          "port_start": 36187,
-          "region": "global",
-          "static_ip4": "147.185.221.22",
-          "tunnel_ip": "2602:fbaf:0:1::16"
+          "port_end": 2925,
+          "port_start": 2924,
+          "region": "south-america",
+          "static_ip4": "23.133.216.126",
+          "tunnel_ip": "2602:fbaf:0:6::7e"
         },
         "status": "allocated"
       },
-      "created_at": "2024-09-06T17:23:15.210233Z",
+      "created_at": "2024-09-06T20:51:55.377078Z",
       "disabled_reason": null,
       "domain": null,
       "expire_notice": null,
       "firewall_id": null,
-      "id": "2feb4c41-a341-4a68-800d-59b719663d87",
+      "id": "bbf69b30-c0a1-4aee-a56e-9fcb2f027447",
       "name": "Minecraft Java",
       "origin": {
         "data": {
           "agent_id": "db871f05-de17-4ee6-af4e-c698de1d432e",
-          "agent_name": "from-key-744d",
+          "agent_name": "cloverstudio",
+          "local_ip": "127.0.0.1",
+          "local_port": 2924
+        },
+        "type": "agent"
+      },
+      "port_count": 1,
+      "port_type": "tcp",
+      "ratelimit": {
+        "bytes_per_second": null,
+        "packets_per_second": null
+      },
+      "region": null,
+      "tunnel_type": "minecraft-java"
+    },
+    {
+      "active": true,
+      "alloc": {
+        "data": {
+          "assigned_domain": "faculty-sam.sa.joinmc.link",
+          "assigned_srv": "faculty-sam.sa.joinmc.link",
+          "assignment": {
+            "subscription": {
+              "region": "south-america",
+              "sub_id": "9732eaa3-ac40-4c35-ba7a-864e8a16e45e"
+            },
+            "type": "dedicated-ip"
+          },
+          "id": "81bde843-9eb5-4df8-96aa-ede9f39b90b2",
+          "ip_hostname": "126.ip.sa.ply.gg",
+          "ip_type": "both",
+          "port_end": 2926,
+          "port_start": 2925,
+          "region": "south-america",
+          "static_ip4": "23.133.216.126",
+          "tunnel_ip": "2602:fbaf:0:6::7e"
+        },
+        "status": "allocated"
+      },
+      "created_at": "2024-09-06T20:53:03.346291Z",
+      "disabled_reason": null,
+      "domain": null,
+      "expire_notice": null,
+      "firewall_id": null,
+      "id": "ecc57913-6baa-4f3f-9636-e006ea230722",
+      "name": "Minecraft Java",
+      "origin": {
+        "data": {
+          "agent_id": "db871f05-de17-4ee6-af4e-c698de1d432e",
+          "agent_name": "cloverstudio",
+          "local_ip": "127.0.0.1",
+          "local_port": 2925
+        },
+        "type": "agent"
+      },
+      "port_count": 1,
+      "port_type": "tcp",
+      "ratelimit": {
+        "bytes_per_second": null,
+        "packets_per_second": null
+      },
+      "region": null,
+      "tunnel_type": "minecraft-java"
+    },
+    {
+      "active": true,
+      "alloc": {
+        "data": {
+          "assigned_domain": "wireless-end.na.joinmc.link",
+          "assigned_srv": "wireless-end.na.joinmc.link",
+          "assignment": {
+            "type": "shared-ip"
+          },
+          "id": "b9ce740b-72bb-4016-8a05-72e4e4deaa59",
+          "ip_hostname": "16.ip.na.ply.gg",
+          "ip_type": "both",
+          "port_end": 2925,
+          "port_start": 2924,
+          "region": "north-america",
+          "static_ip4": "209.25.140.16",
+          "tunnel_ip": "2602:fbaf:0:2::10"
+        },
+        "status": "allocated"
+      },
+      "created_at": "2024-09-06T21:07:10.197646Z",
+      "disabled_reason": null,
+      "domain": {
+        "id": "cc353f3b-a424-45cf-af2b-03023ad6be71",
+        "is_external": false,
+        "name": "cloverstudio.playit.gg",
+        "parent": null,
+        "source": "from-tunnel"
+      },
+      "expire_notice": null,
+      "firewall_id": null,
+      "id": "f5576671-d286-40e0-888c-732f1df65482",
+      "name": "Minecraft Java",
+      "origin": {
+        "data": {
+          "agent_id": "db871f05-de17-4ee6-af4e-c698de1d432e",
+          "agent_name": "cloverstudio",
           "local_ip": "127.0.0.1",
           "local_port": 25565
         },
@@ -47,12 +151,106 @@
         "bytes_per_second": null,
         "packets_per_second": null
       },
-      "region": "global",
+      "region": "north-america",
+      "tunnel_type": "minecraft-java"
+    },
+    {
+      "active": true,
+      "alloc": {
+        "data": {
+          "assigned_domain": "ever-fork.sa.joinmc.link",
+          "assigned_srv": "ever-fork.sa.joinmc.link",
+          "assignment": {
+            "type": "shared-ip"
+          },
+          "id": "363dd135-b7f8-40ae-b9b3-07fe637ee80f",
+          "ip_hostname": "17.ip.sa.ply.gg",
+          "ip_type": "both",
+          "port_end": 1077,
+          "port_start": 1076,
+          "region": "south-america",
+          "static_ip4": "23.133.216.17",
+          "tunnel_ip": "2602:fbaf:0:6::11"
+        },
+        "status": "allocated"
+      },
+      "created_at": "2024-09-06T21:08:47.594068Z",
+      "disabled_reason": null,
+      "domain": null,
+      "expire_notice": null,
+      "firewall_id": null,
+      "id": "e971f045-8d30-4481-a693-51d296382562",
+      "name": "Minecraft Java",
+      "origin": {
+        "data": {
+          "agent_id": "db871f05-de17-4ee6-af4e-c698de1d432e",
+          "agent_name": "cloverstudio",
+          "local_ip": "127.0.0.1",
+          "local_port": 25565
+        },
+        "type": "agent"
+      },
+      "port_count": 1,
+      "port_type": "tcp",
+      "ratelimit": {
+        "bytes_per_second": null,
+        "packets_per_second": null
+      },
+      "region": "south-america",
+      "tunnel_type": "minecraft-java"
+    },
+    {
+      "active": true,
+      "alloc": {
+        "data": {
+          "assigned_domain": "huge-considers.sa.joinmc.link",
+          "assigned_srv": "huge-considers.sa.joinmc.link",
+          "assignment": {
+            "subscription": {
+              "region": "south-america",
+              "sub_id": "9732eaa3-ac40-4c35-ba7a-864e8a16e45e"
+            },
+            "type": "dedicated-ip"
+          },
+          "id": "f336aa02-c4cf-41cb-9a20-1ccea110cfef",
+          "ip_hostname": "126.ip.sa.ply.gg",
+          "ip_type": "both",
+          "port_end": 25566,
+          "port_start": 25565,
+          "region": "south-america",
+          "static_ip4": "23.133.216.126",
+          "tunnel_ip": "2602:fbaf:0:6::7e"
+        },
+        "status": "allocated"
+      },
+      "created_at": "2024-09-06T21:13:24.078514Z",
+      "disabled_reason": null,
+      "domain": null,
+      "expire_notice": null,
+      "firewall_id": null,
+      "id": "d9b9188d-7d6c-4125-b086-af7dcce55c35",
+      "name": "Minecraft Java",
+      "origin": {
+        "data": {
+          "agent_id": "db871f05-de17-4ee6-af4e-c698de1d432e",
+          "agent_name": "cloverstudio",
+          "local_ip": "127.0.0.1",
+          "local_port": 25565
+        },
+        "type": "agent"
+      },
+      "port_count": 1,
+      "port_type": "tcp",
+      "ratelimit": {
+        "bytes_per_second": null,
+        "packets_per_second": null
+      },
+      "region": null,
       "tunnel_type": "minecraft-java"
     }
   ],
   "udp_alloc": {
-    "allowed": 6,
+    "allowed": 16,
     "claimed": 0,
     "desired": 0
   }
